@@ -35,7 +35,7 @@ export default function Home() {
             </li>
             <li className="flex items-start gap-3">
               <CheckCircle className="text-green-600 w-6 h-6 mt-1 flex-shrink-0" />
-              <span className="text-gray-800 text-base leading-relaxed">The best-fit school is <b className='highlight-yellow'>not the &quot;top-ranked&quot;</b>, but the <b className='highlight-yellow'>one that fits the student best&quot;</b></span>
+              <span className="text-gray-800 text-base leading-relaxed">The best-fit school is <b className='highlight-yellow'>not the &quot;top-ranked&quot;</b>, but the <b className='highlight-yellow'>&quot;one that fits the student best&quot;</b></span>
             </li>
             <li className="flex items-start gap-3">
               <CheckCircle className="text-green-600 w-6 h-6 mt-1 flex-shrink-0" />
