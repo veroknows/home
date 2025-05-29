@@ -12,7 +12,7 @@ export default function Home() {
         <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
           <div className="flex justify-center mb-6">
             <div className="bg-white rounded-full border-4 border-blue-700 shadow-lg p-4 flex items-center justify-center">
-              <Image src="/veroknows-logo.png" alt="VeroKnows Logo" width={160} height={160} className="w-40 h-40 object-contain" priority />
+              <Image src="/veroknows-logo.png" alt="VeroKnows Logo" width={160} height={160} className="w-40 h-40 object-contain" priority unoptimized />
             </div>
           </div>
           <h1 className="text-4xl md:text-5xl font-extrabold text-blue-900 mb-4">Discover What VeroKnows Can Do for You</h1>

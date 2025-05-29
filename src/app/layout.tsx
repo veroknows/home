@@ -28,7 +28,7 @@ export default function RootLayout({
         <header className="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-gray-200 shadow-sm">
           <div className="container mx-auto flex items-center justify-between py-3 px-4">
             <Link href="/" className="flex items-center gap-2">
-              <Image src="/veroknows-logo.png" alt="VeroKnows Logo" width={48} height={48} priority className="h-12 w-12 object-contain" />
+              <Image src="/veroknows-logo.png" alt="VeroKnows Logo" width={48} height={48} priority className="h-12 w-12 object-contain" unoptimized />
               <span className="text-2xl font-bold tracking-tight text-blue-900">VeroKnows</span>
             </Link>
             <nav className="flex gap-6 text-lg font-medium">
@@ -53,7 +53,7 @@ export default function RootLayout({
               <a href="https://github.com/veroknows" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="hover:text-blue-300 transition"><Github className="w-6 h-6" /></a>
               <a href="mailto:info@veroknows.com" aria-label="Email" className="hover:text-blue-300 transition"><Mail className="w-6 h-6" /></a>
               <a href="https://www.xiaohongshu.com/user/profile/5a1e8558e8ac2b6655ed152c" target="_blank" rel="noopener noreferrer" aria-label="Rednote" className="hover:text-blue-300 transition">
-                <Image src="/rednote-qr.png" alt="Rednote QR" width={24} height={24} className="w-6 h-6 rounded bg-white p-0.5" />
+                <Image src="/rednote-qr.png" alt="Rednote QR" width={24} height={24} className="w-6 h-6 rounded bg-white p-0.5" unoptimized />
               </a>
             </div>
           </div>
