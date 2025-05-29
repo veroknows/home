@@ -3,6 +3,7 @@ import "./globals.css";
 import Image from "next/image";
 import Link from "next/link";
 import "@fontsource/inter/index.css";
+import ClientHeader from "./ClientHeader";
 import { Mail, Github } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -25,20 +26,7 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
       </head>
       <body className={`font-inter bg-white text-gray-900 antialiased min-h-screen flex flex-col`}>
-        <header className="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-gray-200 shadow-sm">
-          <div className="container mx-auto flex items-center justify-between py-3 px-4">
-            <Link href="/" className="flex items-center gap-2">
-              <Image src="/veroknows-logo.png" alt="VeroKnows Logo" width={48} height={48} priority className="h-12 w-12 object-contain" unoptimized />
-              <span className="text-2xl font-bold tracking-tight text-blue-900">VeroKnows</span>
-            </Link>
-            <nav className="flex gap-6 text-lg font-medium">
-              <Link href="/home" className="hover:text-blue-700 transition-colors">Home</Link>
-              <Link href="/study-abroad" className="hover:text-blue-700 transition-colors">Study Abroad</Link>
-              <Link href="/research-services" className="hover:text-blue-700 transition-colors">Research Services</Link>
-              <Link href="/about" className="hover:text-blue-700 transition-colors">About</Link>
-            </nav>
-          </div>
-        </header>
+        <ClientHeader />
         <main className="flex-1 flex flex-col">{children}</main>
         <footer className="bg-blue-700 border-t border-blue-800 py-8 mt-8 text-white">
           <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4 gap-4 text-sm">
