@@ -6,7 +6,7 @@ import { CheckCircle } from "lucide-react";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-20">
+    <div className="flex flex-col">
       {/* Hero Banner */}
       <section className="relative flex flex-col items-center justify-center min-h-[60vh] py-16 text-center bg-gradient-to-b from-blue-50 to-white">
         <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
@@ -23,8 +23,8 @@ export default function Home() {
         </motion.div>
       </section>
 
-      {/* Company Vision */}
-      <section className="flex justify-center items-center py-16 px-2 sm:px-0">
+      {/* Company Vision - moved up, less gap above */}
+      <section className="flex justify-center items-center pt-6 md:pt-8 pb-12 md:pb-16 px-2 sm:px-0">
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.7 }} className="w-full max-w-3xl mx-auto bg-white rounded-xl shadow-lg border-l-8 border-blue-700 p-8 flex flex-col items-start">
           <h2 className="text-2xl md:text-3xl font-bold mb-4 text-blue-800 text-left">Our Vision</h2>
           <p className="text-lg text-gray-700 mb-6">VeroKnows is a high-end education consulting company specializing in <b className='highlight-yellow'>data-driven and AI-powered matching</b>.</p>
@@ -46,7 +46,7 @@ export default function Home() {
       </section>
 
       {/* Services Overview */}
-      <section className="container mx-auto px-4">
+      <section className="container mx-auto px-4 py-12 md:py-16">
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.2 }}>
           <h2 className="text-2xl md:text-3xl font-bold mb-8 text-blue-800 text-center">Our Services</h2>
           <div className="grid md:grid-cols-2 gap-8">
@@ -65,7 +65,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials */}
-      <section className="container mx-auto px-4">
+      <section className="container mx-auto px-4 py-12 md:py-16">
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.3 }}>
           <h2 className="text-2xl md:text-3xl font-bold mb-8 text-blue-800 text-center">What Our Clients Say</h2>
           <div className="grid md:grid-cols-2 gap-8">
@@ -82,7 +82,7 @@ export default function Home() {
       </section>
 
       {/* Contact Teaser */}
-      <section className="container mx-auto px-4 text-center py-12">
+      <section className="container mx-auto px-4 text-center py-12 md:py-16">
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.4 }}>
           <h2 className="text-2xl md:text-3xl font-bold mb-4 text-blue-800">Ready to Start Your Journey?</h2>
           <p className="text-lg text-gray-700 mb-6">Contact us today to discover how VeroKnows can help you achieve your academic dreams.</p>
