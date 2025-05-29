@@ -70,11 +70,11 @@ export default function Home() {
           <h2 className="text-2xl md:text-3xl font-bold mb-8 text-blue-800 text-center">What Our Clients Say</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <blockquote className="bg-blue-50 border-l-4 border-blue-700 p-6 rounded-xl shadow text-gray-800">
-              <p className="mb-2">"VeroKnows helped me find the perfect high school for my goals. Their data-driven approach made all the difference!"</p>
+              <p className="mb-2">&quot;VeroKnows helped me find the perfect high school for my goals. Their data-driven approach made all the difference!&quot;</p>
               <footer className="text-sm text-blue-700 font-semibold">— Emily, High School Student of 2025</footer>
             </blockquote>
             <blockquote className="bg-blue-50 border-l-4 border-blue-700 p-6 rounded-xl shadow text-gray-800">
-              <p className="mb-2">"The research support was top-notch. I highly recommend VeroKnows to anyone seeking guidance in their high school journey."</p>
+              <p className="mb-2">&quot;The research support was top-notch. I highly recommend VeroKnows to anyone seeking guidance in their high school journey.&quot;</p>
               <footer className="text-sm text-blue-700 font-semibold">— Dr. Chen, Parent of a High School Student of 2025</footer>
             </blockquote>
           </div>
