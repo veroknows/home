@@ -4,7 +4,7 @@ import "./globals.css";
 import Image from "next/image";
 import Link from "next/link";
 import "@fontsource/inter/index.css";
-import { Linkedin, Mail, Github } from "lucide-react";
+import { Mail, Github } from "lucide-react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -64,7 +64,7 @@ export default function RootLayout({
               <a href="https://github.com/veroknows" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="hover:text-blue-300 transition"><Github className="w-6 h-6" /></a>
               <a href="mailto:info@veroknows.com" aria-label="Email" className="hover:text-blue-300 transition"><Mail className="w-6 h-6" /></a>
               <a href="https://www.xiaohongshu.com/user/profile/5a1e8558e8ac2b6655ed152c" target="_blank" rel="noopener noreferrer" aria-label="Rednote" className="hover:text-blue-300 transition">
-                <img src="/rednote-qr.png" alt="Rednote QR" className="w-6 h-6 rounded bg-white p-0.5" />
+                <Image src="/rednote-qr.png" alt="Rednote QR" width={24} height={24} className="w-6 h-6 rounded bg-white p-0.5" />
               </a>
             </div>
           </div>

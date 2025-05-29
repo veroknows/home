@@ -24,7 +24,7 @@ export default function StudyAbroad() {
       <div className="mb-8">
         <h2 className="text-xl font-semibold text-blue-800 mb-2">Student Success Stories</h2>
         <blockquote className="bg-blue-50 border-l-4 border-blue-700 p-4 rounded mb-4">
-          <p className="mb-1">“With VeroKnows' help, I got into my dream school in the US. Their advice was spot-on!”</p>
+          <p className="mb-1">“With VeroKnows&apos; help, I got into my dream school in the US. Their advice was spot-on!”</p>
           <footer className="text-sm text-blue-700 font-semibold">— Kevin, High School Student of 2025</footer>
         </blockquote>
         <blockquote className="bg-blue-50 border-l-4 border-blue-700 p-4 rounded">
